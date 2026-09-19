@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navigation */
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 0 50px;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h2 {
+    font-size: 22px;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+
+nav > a:hover {
+    color: #f15b2a;
+}
+
+
+/* Header icons */
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons i {
+    font-size: 14px;
+}
+
+.header-icons button {
+    width: 100px;
+    height: 32px;
+    background-color: #f15b2a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* Hero */
+
+.hero {
+    height: calc(100vh - 80px);
+    background-image: url("Assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+
+.hero-content {
+    width: 400px;
+}
+
+.small-heading {
+    color: #f15b2a;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.hero-content h1 {
+    font-size: 38px;
+    line-height: 43px;
+    margin-bottom: 15px;
+}
+
+#coloured {
+    color: #f15b2a;
+}
+
+.hero-content > p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-content button {
+    width: 110px;
+    height: 35px;
+    background-color: #f15b2a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* Popular Dishes */
+
+.popular {
+    padding: 40px 50px;
+    background-color: white;
+}
+
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-heading h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.section-heading span {
+    font-size: 13px;
+    color: #777;
+}
+
+.section-heading > a {
+    text-decoration: none;
+    color: #f15b2a;
+    font-size: 12px;
+}
+
+
+/* Dish Box */
+
+.dish-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.dish {
+    width: 250px;
+    border: 1px solid black;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.dish img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.dish h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.dish p {
+    font-size: 17px;
+    color: #777;
+    margin: 0 10px 8px;
+    line-height: 17px;
+}
+
+.dish strong {
+    display: block;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.dish button {
+    width: 100px;
+    height: 40px;
+    background-color: #f15b2a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+
+/* About */
+
+.about {
+    background-color: #f4f9f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 45px 50px;
+}
+
+
+.about-text {
+    width: 350px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.about-text > p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.about-text button {
+    width: 110px;
+    height: 35px;
+    background-color: #f15b2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.about-image {
+    width: 400px;
+}
+
+.about-image img {
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #102c29;
+    color: white;
+}
+
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px;
+    gap: 50px;
+}
+
+
+.footer-about {
+    width: 250px;
+}
+
+
+.footer-logo {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.footer-box h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+.footer-box p,
+.footer-box a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+
+
+.social {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.social i {
+    font-size: 18px;
+}
+
+
+/* Copyright */
+
+.copyright {
+    border-top: 1px solid #34504d;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
